@@ -5727,12 +5727,12 @@ Game.Launch=function()
 				},
 				getMinTime:function(me)
 				{
-					var m=0;
+					var m=5;
 					return this.getTimeMod(me,m);
 				},
 				getMaxTime:function(me)
 				{
-					var m=.2;
+					var m=15;
 					return this.getTimeMod(me,m);
 				},
 				last:'',
